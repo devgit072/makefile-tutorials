@@ -3,10 +3,11 @@ It is utility to build application not just Golang, but for other language as we
 pom.xml.
 *make* is command which will seek Makefile</br>  
 In Makefile, we have to mention target and instruction inside that target.</br>  
-For Example: In Makefile, we can create target ***run*** and the instruction can be ***go run <gofile.go>***
+For Example: In Makefile, we can create target run and the instruction can be go run <gofile.go>
 Inside Makefile, we can create many target and later we can specify which target to build.  
 </br>
 Lets create a simple Makefile: </br>  
+
 ```
    hello:
    	echo "Hello"
